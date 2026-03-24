@@ -54,8 +54,10 @@ It demonstrates:
 
 ### ✅ Task Management
 
+###  Add Todo
 ![Add Todo](./screenshots/addtodo.jpeg)
 
+###  Remove Todo
 ![Remove Todo](./screenshots/removetodo.jpeg)
 
 ### 🎯 User Interaction
