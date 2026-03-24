@@ -12,6 +12,7 @@ A clean and interactive **Todo Application** built using **Vanilla JavaScript**,
 ## 🚀 Live Demo
 
 🌐 **Live App:** https://khushi-66.github.io/javascript-todo-app/
+
 📂 **GitHub Repository:** https://github.com/khushi-66/javascript-todo-app
 
 ---
