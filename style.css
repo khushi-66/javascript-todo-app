@@ -1,0 +1,152 @@
+*{
+    box-sizing :border-box;
+    padding:0;
+    margin:0;
+
+}
+
+.header{
+    position:relative;
+    min-height: 60vh;
+    background:url(./A.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+    width:90%;
+}
+.nav{
+    min-height: 8vh;
+    display:flex;
+    justify-content:space-between;
+}
+
+.bg-dark{
+   color:white;
+   background-color: black;
+}
+.nav-item{
+    width:40%;
+    display:flex;
+    list-style-type:none;
+    justify-content: space-between;
+}
+.headline{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    outline: none;
+    cursor:pointer;
+    border:none;
+}
+.btn-headline{
+    padding:1rem 2rem;
+    font-size:1rem;
+    margin-top:1rem;
+    font-weight: 600;
+}
+.section-todo{
+    margin-top:5rem;
+    text-align: center;
+
+}
+.form-todo{
+    margin-top:1rem;
+    min-height:5vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+.form-todo input[type="text"]{
+  width:78%;
+  padding:0.8rem;
+  font-size:1rem;
+  font-weight:400;
+}
+
+.form-todo input[type="submit"]{
+    width:20%;
+    background-color:rgb(20, 39, 77);
+    color:white;
+    font-weight:bold ;
+
+}
+  .todo-list{
+   text-align: left;
+   font-size: 1.2rem;
+   list-style-type:none;
+  }
+
+  .todo-list li{
+    padding:0.7rem;
+    background:#444;
+    color:cyan;
+    text-transform: capitalize;
+    margin-top:1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
+  .todo-btn{
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    font-weight:bold;
+    cursor: pointer;
+  }
+.section-signup{
+    margin:5rem auto;
+    text-align: center;
+    background-color:rgb(240,240,240);
+    border-radius:10px;
+    padding:1rem;
+    
+
+}
+
+.signup-form{
+    max-width:800px;
+    width:95%;
+    margin:auto;
+    text-align: left;
+}
+.signup-form input{
+    display:block;
+    width:100%;
+    padding:0.5rem;
+}
+
+.signup-form label{
+    display:block;
+}
+  
+.form-group{
+    margin-top:1rem;
+}
+
+.signup-form textarea{
+    width:100%;
+}
+
+.signup-btn{
+    background-color:rgb(18, 35, 70);
+    color:white;
+    padding:1rem;
+    margin:auto;
+    display:block;
+    margin-top:1rem;
+}
